@@ -12,12 +12,40 @@ h1{
 .image-reviews img{
    width:32px;
    height:32px;
-   border-radius:10px;
+   border-radius:20px;
+   margin:10px;
+   padding:10px;
+}
+.image-reviews{
+    display:flex;
+}
+.reviewer-details{
+    margin-left:20px;
+    margin-top:15px;
 }
 .review-containers{
     display:flex;
     justify-content:center;
-    
+    position:relative;    
+}
+.review{
+    margin:10px;
+    padding:5px;
+}
+.reviews-container-1{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+.reviews-container-2{
+    position: absolute;
+    top: 40px;
+    left: 530px;
+}
+.reviews-container-3{
+    position: absolute;
+    top: 70px;
+    left: 916px;
 }
 .main{
     display:flex;
@@ -29,10 +57,12 @@ h1{
 }
 .about-site-section{
     width:30%;
+    margin-left:50px;
 }
 .rating-container{
     width:30%;
     padding-top:25px;
+    margin-right:50px;
 }
 .rating-1,.rating-2,.rating-3{
     display:flex;
