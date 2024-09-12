@@ -3,9 +3,39 @@ h1{
 }
 .reviews-container-1,.reviews-container-2,.reviews-container-3{
     background-color:purple;
+    margin-right:15px;
+    width:25%;
+    border-radius:15px;
+    color:white;
 }
 
 .image-reviews img{
    width:32px;
    height:32px;
+   border-radius:10px;
+}
+.review-containers{
+    display:flex;
+    justify-content:center;
+    
+}
+.main{
+    display:flex;
+    justify-content: space-between;
+    margin-top:100px;
+    margin-left:110px;
+    margin-right:100px;
+    margin-bottom:50px;
+}
+.about-site-section{
+    width:30%;
+}
+.rating-container{
+    width:30%;
+    padding-top:25px;
+}
+.rating-1,.rating-2,.rating-3{
+    display:flex;
+    background-color:rgb(133, 94, 133);
+    border-radius:10px;
 }
