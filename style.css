@@ -1,6 +1,11 @@
 h1{
-    background-color:purple;
+    color:purple;
 }
 .reviews-container-1,.reviews-container-2,.reviews-container-3{
     background-color:purple;
+}
+
+.image-reviews img{
+   width:32px;
+   height:32px;
 }
